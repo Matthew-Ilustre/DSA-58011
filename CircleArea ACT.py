@@ -5,7 +5,7 @@ class Circle:
 
     def Perimeter(self) :
         pi = 3.14
-        print(2 * pi * self.radius)
+        print( pi * (self.radius * self.radius))
 
 C = Circle(2)
 C.Perimeter()
